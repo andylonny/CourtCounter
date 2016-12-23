@@ -4,10 +4,6 @@
     android:id="@+id/activity_main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:paddingBottom="@dimen/activity_vertical_margin"
-    android:paddingLeft="@dimen/activity_horizontal_margin"
-    android:paddingRight="@dimen/activity_horizontal_margin"
-    android:paddingTop="@dimen/activity_vertical_margin"
     android:orientation="vertical"
     tools:context="com.example.android.courtcounter.MainActivity">
 
@@ -20,7 +16,7 @@
         android:text="Team A" />
 
     <TextView
-        android:id="@+id/score_text_view"
+        android:id="@+id/team_a_score"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:gravity="center"
@@ -31,21 +27,24 @@
         android:id="@+id/theepoints_button"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:padding="8dp"
-        android:text="+3 Points"/>
+        android:layout_margin="8dp"
+        android:text="+3 Points"
+        android:onClick="threePoints"/>
 
     <Button
         android:id="@+id/twopoints_button"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:padding="8dp"
-        android:text="+2 Points"/>
+        android:layout_margin="8dp"
+        android:text="+2 Points"
+        android:onClick="twoPoints"/>
 
     <Button
-        android:id="@+id/theepoints_button"
+        android:id="@+id/freethrow_button"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:padding="8dp"
-        android:text="+3 Points"/>
+        android:layout_margin="8dp"
+        android:text="Free Throw"
+        android:onClick="freeThrow"/>
 
 </LinearLayout>
