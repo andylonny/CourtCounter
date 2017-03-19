@@ -1,3 +1,11 @@
 <resources>
     <string name="app_name">CourtCounter</string>
+    <string name="team_a">Team A</string>
+    <string name="team_b">Team B</string>
+    <string name="three_points">+ 3 Points</string>
+    <string name="two_points">+ 2 Points</string>
+    <string name="free_throw">Free Throw</string>
+    <string name="minus_one_point">- 1 Point</string>
+    <string name="reset">Reset</string>
+    <string name="msg">The score cannot be less than O</string>
 </resources>

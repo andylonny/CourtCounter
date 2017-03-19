@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Basquete</string>
+    <string name="team_a">Time A</string>
+    <string name="free_throw">Lance Livre</string>
+    <string name="minus_one_point">-1 Ponto</string>
+    <string name="reset">Zerar</string>
+    <string name="team_b">Time B</string>
+    <string name="two_points">+ 2 Pontos</string>
+    <string name="three_points">+3 Pontos</string>
+    <string name="msg">O placar não pode ser menor que 0</string>
+
+</resources>
