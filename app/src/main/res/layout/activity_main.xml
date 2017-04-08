@@ -2,7 +2,8 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:background="@mipmap/background">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -23,10 +24,11 @@
                 android:layout_height="wrap_content"
                 android:fontFamily="sans-serif-medium"
                 android:gravity="center"
-                android:padding="16dp"
                 android:text="@string/team_a"
-                android:textColor="#616161"
-                android:textSize="14sp" />
+                android:layout_marginBottom="20dp"
+                android:background="#000000"
+                android:textColor="#FFFFFF"
+                android:textSize="29sp" />
 
             <TextView
                 android:id="@+id/team_a_score"
@@ -36,8 +38,9 @@
                 android:gravity="center"
                 android:paddingBottom="24dp"
                 android:text="0"
-                android:textColor="#000000"
-                android:textSize="56sp" />
+                android:textColor="#FF3300"
+                android:textSize="56sp"
+                android:textStyle="bold"/>
 
             <Button
                 android:id="@+id/team_a_theepoints_button"
@@ -102,10 +105,11 @@
                 android:layout_height="wrap_content"
                 android:fontFamily="sans-serif-medium"
                 android:gravity="center"
-                android:padding="16dp"
+                android:layout_marginBottom="20dp"
+                android:background="#000000"
                 android:text="@string/team_b"
-                android:textColor="#616161"
-                android:textSize="14sp" />
+                android:textColor="#FFFFFF"
+                android:textSize="29sp" />
 
             <TextView
                 android:id="@+id/team_b_score"
@@ -115,7 +119,8 @@
                 android:gravity="center"
                 android:paddingBottom="24dp"
                 android:text="0"
-                android:textColor="#000000"
+                android:textColor="#FF3300"
+                android:textStyle="bold"
                 android:textSize="56sp" />
 
             <Button
